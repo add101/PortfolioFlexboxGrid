@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+*{border: 1px solid #d900c7}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+header {
+  background-color: rgb(115, 115, 253);
+}
+
+.hero-banner {
+  background-image: url("../images/02-hero-bg.jpg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 200px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+ 
+}
+
+.page-section {
+  display: flex;
+
+  
+}
+
+#text_bottom_right {
+  background-color: rgba(157, 50, 50, 0.5);
+  text-align: right; 
+  margin-bottom: 0;
+  margin-right: 0;
+
+}
+
+/*
+#text_bottom_right_child {
+  background-color: rgba(157, 50, 50, 0.5);
+  position: relative;
+  display: flex;  
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+*/
+
+.RowHeading {
+             
+              background-color: #d03535;
+              width: 30%;
+}
+
+.RowContent {
+
+}
+
+.RowPortfolioGrid {
+  display: grid;
+  grid-area: MainProject MainProject
+            Project1 Project2
+            Project3 Project4
+            ;
+}
+
