@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+
+}
+
+*{border: 1px solid rgba(118, 134, 125, 0) }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  display: block; /* Ensure the anchor behaves as a block element */
+  text-decoration: none; /* Remove underlines */
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+header {
+  background-color: rgb(168, 215, 169);
+}
+
+.hero-banner {
+  background-image: url("../images/02-hero-bg.jpg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: auto;
+ /* height: 200px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+ 
+}
+
+
+.page-section {
+  display: flex;  
+}
+
+/* Hero Banner Text Positioning - Attempt 1 */
+#text_bottom_right {
+  background-color: rgba(157, 50, 50, 0.5);
+  text-align: right; 
+  margin-bottom: 0;
+  margin-right: 0;
+
+}
+
+/*
+// Hero Banner Text Positioning - Attempt 2
+#text_bottom_right_child {
+  background-color: rgba(157, 50, 50, 0.5);
+  position: relative;
+  display: flex;  
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+*/
+
+.RowHeading {
+             
+     background-color: #ffffff;
+     width: 20%;  
+}
+
+.RowContent {
+  width: 80%;
+
+}
+/* Grid First Attempt
+.RowPortfolioGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-area: MainProject MainProject
+            Project1 Project2
+            Project3 Project4
+            ;
+  grid-column-gap: 0px;
+  grid-row-gap: 15px;
+  width: 70%;
+}
+
+*/
+
+.gridContainer {
+  display: grid; 
+  vertical-align: top;
+  width: 80%;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "MainProject MainProject"
+    "Project2 Project3"
+    "Project4 Project5"; 
+}
+.MainProject { grid-area: MainProject; }
+
+.Project2 { grid-area: Project2; }
+.Project4 { grid-area: Project4; }
+.Project3 { grid-area: Project3; }
+
+/* */
+
+/* Change figure styling from defaults */
+figure {
+  border:0;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style image for text overlay */
+.image-underlay { 
+  position: relative;  
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+/* Bottom left text overlay */
+.bottom-left {
+  position: absolute;
+  bottom: 32px;
+  left: 0px;
+  padding: 16px;
+  background-color: rgba(118, 134, 125, 0.88);
+  color: white;
+}
+
+.Project2,
+.Project3,
+.Project4,
+.Project5 {
+  /* Ensure no extra margins or paddings */
+  margin: 0;
+  padding: 0;
+}
+
+

@@ -5,24 +5,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
+  <title>Adrian Lamour // Web Developer Portfolio</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
   <!-- main logo / nav -->
   <header>
-    <h1>Lernantino</h1>
+    <h1 ><span class="HeadlineTitle">Adrian Lamour</span></h1>
     <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
   </header>
 <div class="wrapper">
   <!-- hero banner -->
-  <section class="hero-banner">
-    
-      <h2 id="text_bottom_right">Cool subtitle here!</h2>
-   
-  </section>
+  <section class="image-underlay">  
+ 
+
+   <!-- hero banner2 -->
+   <img src="https://placehold.co/1600x500" style="width:100%;" class="image-underlay">    
+   <h2 class="bottom-right">Web Development Portfolio</h2> 
+      
+</section>
+  
+         
+
 
   <main class="page-wrapper">
     <!-- about me -->
@@ -31,28 +42,141 @@
         <h2>About Me</h2> 
       </div>  
       <div class="RowContent">
-        <p1>about me text here</p1>
+          <div id="leftSpacing">
+          <p1>👋 Hello, I'm Adrian, a passionate web developer with a unique background in 3D visualisation and CG animation. 
+            
+            <br>
+            <br>
+            
+            🌐 I have an interest in 3D and Spatial technologies (like VR, AR, and Games), and how these can blend with the web, with tools like Three.js. 
+        
+          <br>
+          <br>
+            🚀 Beyond the code, my interests extend to the realm of education. While I'm not immersed in the world of learning, I find joy in sharing knowledge and links to educational content. 
+          </p1>  
+        </div>
+          
       </div>   
     </section>
    
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
+
+<!-- grid test 2 -->
+   <!-- portfolio container -->
+   <div class="page-section" id="work">
+
       <div class="RowHeading">
-        <h2>Work</h2>
+        <h2>Work</h2>        
       </div>
-      <div class="RowPortfolioGrid">
-        <p1>Portfolio Grid</p1>
+   
+  
+      <div class="gridContainer" >  
+
+        <section class="MainProject">
+          <a href="">       
+            <figure>
+                <div class="image-underlay" class="img-margin">
+                  <img src="images/PreWorkv2b.jpg" style="width: 100%;">
+                  <figcaption class="bottom-left">
+                    <h2>Study Guide</h2>
+                    <p>Project description text</p>
+                  </figcaption>                  
+                </div>             
+            </figure>
+          </a>
+        </section>
+       
+        <section class="Project2">
+          <a href="">            
+            <figure>
+              <div class="image-underlay"  class="img-margin">
+                <img src="https://placehold.co/600x350" style="width: 100%;">
+                <figcaption class="bottom-left">
+                  <h2>CSS Cheatsheet</h2>
+                  <p>Project description text</p>
+                </figcaption>                  
+              </div>             
+            </figure>
+          </a>
+        </section>
+
+        <section class="Project3">      
+          <a href="">            
+            <figure>
+              <div class="image-underlay"  class="img-margin">
+                <img src="https://placehold.co/600x350" style="width: 100%;">
+                <figcaption class="bottom-left">
+                  <h2>Box Model</h2>
+                  <p>Project description text</p>
+                </figcaption>                  
+              </div>             
+            </figure>
+          </a>
+        </section>
+        
+
+        <section class="Project4">         
+          <a href="">            
+            <figure>
+              <div class="image-underlay"  class="img-margin">
+                <img src="https://placehold.co/600x350" style="width: 100%;">
+                <figcaption class="bottom-left">
+                  <h2>CSS Gallery Templates</h2>
+                  <p>Project description text</p>
+                </figcaption>                  
+              </div>             
+            </figure>
+          </a>
+        </section>
+
+        <section class="Project5">    
+          <a href="">            
+            <figure>
+              <div class="image-underlay"  class="img-margin">
+                <img src="https://placehold.co/600x350" style="width: 100%;">
+                <figcaption class="bottom-left">
+                  <h2>Three.js</h2>
+                  <p>Project description text</p>
+                </figcaption>                  
+              </div>             
+            </figure>
+          </a>
+        </section>
+
       </div>
-    </section>
+  
+    </div>
 
     <!-- contact -->
     <section class="page-section contact" id="contact">
       <div class="RowHeading">
-        <h2>Contact Me</h2>
+        <h2>Contact</h2>
       </div> 
+
       <div class="RowContent">
-        <p1></p1>about me text here
-      </div>  
+        <div class="contactSpacing">   
+                  
+          <a href="https://github.com/add101" target="_blank"><p1>Github</p1></a>
+          <a href="https://codepen.io/add101" target="_blank"><p1>Codepen</p1></a>
+          <a href="mailto:email@example.com">e-mail</a>
+          
+        </div>
+        <br>
+        <br>
+        <br>
+        <hr>
+
+        <!--
+        <p1>Check out my instagram:</p1> 
+        <br>
+        <p1>Links to some coding tutorials:</p1> 
+        <br>
+        <p1>Links to Three.js Tutorials:</p1> 
+        <br>
+        <p1>Links to 3D Tutorials:</p1>
+      
+         -->
+      </div> 
+      
       
     </section>
   </main>
