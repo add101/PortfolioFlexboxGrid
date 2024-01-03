@@ -1,5 +1,5 @@
 # Portfolio using CSS Flexbox and Grid 
-Challenge for Week 2 using CSS, Flexbo, and Grid.
+Challenge for Week 2 using CSS, Flexbox, and Grid.
 
 ## Description:
 
